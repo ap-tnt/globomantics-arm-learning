@@ -8,8 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Bertie Bobbins
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
       - name: Azure Login
         uses: Azure/login@v1
