@@ -23,12 +23,12 @@
         {
             "name": "[parameters('resourceGroupName')]",
             "type": "Microsoft.Resources/resourceGroups",
-            "apiVersion": "2021-05-01",
+            "apiVersion": "2019-10-01",
             "location": "[parameters('location')]",
-            "dependsOn": [
-            ],
-            "tags": {
-            }
+            "dependsOn": [],
+			  
+            "tags": {}
+			 
         }
     ],
     "outputs": {}
