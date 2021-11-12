@@ -37,5 +37,5 @@ jobs:
           parameters: 
             sku=Standard_LRS
             storageAccountName=globostg002xtf
-            location="Australia East"
+            location="UK South"
           deploymentMode: incremental
