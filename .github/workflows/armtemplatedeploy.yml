@@ -30,6 +30,6 @@ jobs:
           scope: resourcegroup
           resourceGroupName: rg-githubactions
           subscriptionId: 0d0b3f8c-58a4-4e1b-aa95-9822544f9ee8
-          template: ./arm-templates/storageaccount.json
-          parameters: ./arm-templates/storageaccount.parameters.json
+          template: ./arm-templates/storageAccount.json
+          parameters: ./arm-templates/storageAccount.parameters.json
           deploymentMode: incremental
