@@ -22,6 +22,9 @@ jobs:
           subscriptionId: 0d0b3f8c-58a4-4e1b-aa95-9822544f9ee8
           region: UK South
           template: ./arm-templates/resourcegroup.json
+          parameters:
+            location="Australia East"
+            resourceGroupName=rg-githubactions
           deploymentName: rg-githubactions
 
       - name: Deploy Storage Account
@@ -32,7 +35,7 @@ jobs:
           subscriptionId: 0d0b3f8c-58a4-4e1b-aa95-9822544f9ee8
           template: ./arm-templates/storageAccount.json
           parameters: 
-            ./arm-templates/storageAccount.parameters.json
+            sku=Standard_LRS
             storageAccountName=globostg002xtf
             location="Australia East"
           deploymentMode: incremental
