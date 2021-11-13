@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  resource_group_name: rg-githubactions
+  resource_group_name: rg-githubactions2
   location: Australia East
   subscriptionId: 0d0b3f8c-58a4-4e1b-aa95-9822544f9ee8
 
