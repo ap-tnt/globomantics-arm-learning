@@ -23,7 +23,7 @@ jobs:
           region: UK South
           template: ./arm-templates/resourcegroup.json
           parameters:
-            location="UK South"
+            location="Australia East"
             resourceGroupName=rg-githubactions
           deploymentName: rg-githubactions
 
