@@ -52,4 +52,3 @@ jobs:
             adminPassword=${{ secrets.UBUNTU_ADMIN_PASSWORD }}
           deploymentMode: incremental
 
-      
